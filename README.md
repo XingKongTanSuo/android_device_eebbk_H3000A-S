@@ -1,4 +1,4 @@
-# Android device tree for EEBBK S3 Prow (H3000A)
+# Android device tree for EEBBK S3 Pro (H3000S)
 
 ```
 #

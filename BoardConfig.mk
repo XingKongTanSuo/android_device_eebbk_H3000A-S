@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/eebbk/H3000A
+DEVICE_PATH := device/eebbk/H3000S
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -43,8 +43,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x0df88000
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := H3000A_defconfig
-TARGET_KERNEL_SOURCE := kernel/eebbk/H3000A
+TARGET_KERNEL_CONFIG := H3000S_defconfig
+TARGET_KERNEL_SOURCE := kernel/eebbk/H3000S
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/eebbk/H3000A
+LOCAL_PATH := device/eebbk/H3000S

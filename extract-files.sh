@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=H3000A
+DEVICE=H3000S
 VENDOR=eebbk
 
 # Load extract_utils and do some sanity checks

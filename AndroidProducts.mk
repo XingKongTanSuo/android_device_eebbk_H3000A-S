@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_H3000A.mk
+    $(LOCAL_DIR)/omni_H3000S.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_H3000A-user \
-    omni_H3000A-userdebug \
-    omni_H3000A-eng
+    omni_H3000S-user \
+    omni_H3000S-userdebug \
+    omni_H3000S-eng
