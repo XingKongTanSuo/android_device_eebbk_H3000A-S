@@ -14,6 +14,10 @@
 /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/logo      0660    root    system
 /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/frp       0660    root    system
 
+#add by lmh for selftest nvram
+#if we want to read write nvram by native method, we have to change pemissive below
+/dev/block/platform/soc/11230000.mmc/by-name/proinfo 0660 root system
+/dev/block/platform/soc/11230000.mmc/by-name/nvram 0660 root system
 
 # Connectivity
 /dev/stpwmt               0660   system     system
@@ -44,6 +48,9 @@
 
 # GPU
 /dev/dri/card0            0666   system     system
+
+# usb camera scanpen
+/dev/video*               0660   media     camera
 
 # add the read write right of ttyUSB*
 /dev/bus/usb/*     	  0660   root       usb
@@ -111,3 +118,4 @@
 
 # RPMB
 /dev/block/mmcblk0rpmb    0660   root       system
+
