@@ -654,6 +654,8 @@ service installd /system/bin/installd
     socket installd stream 600 system system
 
 service factory_no_image /vendor/bin/factory
+service mobile_log_d /vendor/bin/mobile_log_d
+	class main
 
 #service hald /vendor/bin/hald
 #    class main
